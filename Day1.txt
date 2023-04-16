@@ -1,2 +1,70 @@
-This is Day one content
-I also append this list
+Dsa Important dsa problems:
+
+Easy Problems -
+
+1. Convert Binary Number in a Linked List to Integer
+2. Reverse String
+3. Strobogrammatic Number
+4. Lowest Common Ancestor of a Binary Search Tree
+5. Number of 1 Bits
+6. House Robber
+7. Maximum Subarray
+8. Merge Sorted Array
+9. Valid Parentheses
+10. Linked List Cycle
+11. Sort Array By Parity
+12. Best Time to Buy and Sell Stock
+13. Delete Node in a Linked List
+14. Intersection of Two Linked Lists
+15. Longest Common Prefix
+16. Remove Duplicates from Sorted Array
+17. Maximum Product of Three Numbers
+18. Valid Anagram
+19. Rotate Array
+20. Merge Two Sorted Lists
+21. Convert Sorted Array to Binary Search Tree
+22. Valid Palindrome
+23. Can Place Flowers
+
+Medium Problems -
+
+1. Binary Search Tree Iterator
+2. Group Anagrams
+3. Perfect Squares
+4. Permutations
+5. Generate Parentheses
+6. Daily Temperatures
+7. Course Schedule
+8. Delete Node in a BST
+9. Remove Nth Node From End of List
+10. 3Sum
+11. Binary Tree Preorder Traversal
+12. Reverse Words in a String
+13. Letter Combinations of a Phone Number
+14. Meeting Rooms II
+15. Shuffle an Array
+16. Different Ways to Add Parentheses
+17. Binary Tree Level Order Traversal
+18. String to Integer (atoi)
+19. Add Two Numbers II
+20. Search in Rotated Sorted Array
+21. Spiral Matrix
+22. Reorder List
+23. Number of Islands
+24. Strobogrammatic Number II
+25. Decode Ways
+26. Longest Palindromic Substring
+27. Decode String
+28. Validate IP Address
+29. Snakes and Ladders
+30. Rotate Image
+31. LRU Cache
+32. Merge Intervals
+33. Add Two Numbers
+
+Hard Problems -
+
+1. Maximum Profit in Job Scheduling
+2. Reverse Nodes in k-Group
+3. Merge k Sorted Lists
+4. Word Search II
