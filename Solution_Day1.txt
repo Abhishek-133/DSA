@@ -1,0 +1,74 @@
+Easy (1-30)
+
+1. Convert Binary Number in a Linked List to Integer
+class Solution {
+    public int getDecimalValue(ListNode head) {
+        long number = 0;
+        ListNode current = head;
+        while (current != null) {
+            number = number * 2 + current.val; // multiply by 2 for binary conversion
+            current = current.next;
+        }
+        System.out.println("number " + number);
+        int decimal = (int) number; // cast the long to an int
+        System.out.println(decimal);
+        return decimal;
+    }
+}
+
+
+2.Reverse of String
+
+class Solution {
+    public void reverseString(char[] s) {
+        int ptr1 = 0;
+        int ptr2 = s.length-1;
+        while(ptr1<=ptr2){
+            char temp = s[ptr1];
+            s[ptr1] = s[ptr2];
+            s[ptr2] = temp;
+            ptr1++;
+            ptr2--;
+        }
+    }
+}
+
+3. Strobogrammatic Number
+public class Solution {
+    public boolean isStrobogrammatic(String num) {
+        HashMap<Character, Character> dict = new HashMap<>();
+        dict.put('0','0');
+        dict.put('1','1');
+        dict.put('8','8');
+        dict.put('6','9');
+        dict.put('9','6');
+        int i=0; 
+        int j = num.length()-1;
+        while(i<=j){
+            char f = num.charAt(i);
+            char b = num.charAt(j);
+            if(dict.containsKey(f) && dict.containsKey(b) && dict.get(f) == b){
+                i++;j--;
+            }else{
+                return false;
+            }
+        }
+        return true;
+
+    }
+}
+4. Lowest Common Ancestor of a Binary Search Tree
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == null){
+            return null;
+        }
+        if(p.val<root.val && q.val<root.val){
+          return  lowestCommonAncestor(root.left,p,q);
+        }else if(p.val>root.val && q.val>root.val){
+            return  lowestCommonAncestor(root.right,p,q);
+        }else{
+            return root;
+        }
+    }
+}
